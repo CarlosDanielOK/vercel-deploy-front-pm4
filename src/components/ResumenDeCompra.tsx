@@ -28,10 +28,6 @@ export const ResumenDeCompra: React.FC = () => {
         }
     }, []);
 
-    useEffect(() => {
-
-    }, []);
-
     const total = cart.reduce((acc, item) => acc + item.price, 0); // Calcular el total del carrito
     const costoDeEnvio = 10.00;
     const precioFinal = total + costoDeEnvio;

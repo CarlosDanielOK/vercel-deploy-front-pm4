@@ -7,7 +7,7 @@ export default function LadingPage() {
       <p className="text-lg text-gray-600 mb-8">Encuentra los mejores productos a los mejores precios</p>
       <Link href="/home">
         <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
-          ¡Explorar Productos!
+          Explorar Productos
         </button>
       </Link>
     </main>
